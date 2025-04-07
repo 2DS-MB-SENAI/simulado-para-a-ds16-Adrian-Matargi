@@ -7,7 +7,7 @@ from rest_framework import status
 
 def listar_livros(request):
     livros = Livro.objects.all()
-    return render(request, 'livros/listar_livros.html', {'livros': livros})
+    return render(request, 'livros/livros.html', {'livros': livros})
 
 @api_view(['GET', 'POST'])
 def livros_api(request):
