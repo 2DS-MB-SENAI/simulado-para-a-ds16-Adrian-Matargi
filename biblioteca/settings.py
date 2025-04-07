@@ -140,3 +140,5 @@ SIMPLE_JWT = {
 }
 
 AUTH_USER_MODEL = 'usuario.CustomUser'
+
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'testserver']
